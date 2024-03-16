@@ -15,11 +15,11 @@ function RecipiesContainer() {
       }
   }
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <div className='max-w-[1440px] mx-auto my-10'>
         <div className="w-[90%] mx-auto">
-            <div className="text-center md:mx-32">
+            <div className="text-center md:mx-32 my-5">
                 <h1 className="text-3xl">Our Recipes</h1>
-                <p className="">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque.</p>
+                <p className="">Discover a treasure trove of culinary delights within 'Our Recipes,' where each dish is a masterpiece of flavor, texture, and creativity. From comforting classics to innovative creations, embark on a culinary journey that promises to tantalize your taste buds and inspire your next kitchen adventure. Bon appétit</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-5 my-5 gap-5">
                 <Recipies handleRecipes={handleRecipes}/>
