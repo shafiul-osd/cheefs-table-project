@@ -1,7 +1,7 @@
 import { ImClock } from "react-icons/im";
 import { FaFire } from "react-icons/fa";
 
-function Recipe({recipe}) {
+function Recipe({recipe,handleRecipes}) {
     
   return (
     <div className='border-2 rounded-xl'>
@@ -28,7 +28,7 @@ function Recipe({recipe}) {
             <p>{recipe.calories}</p>
         </div>
     </div>
-    <button className="btn btn-success text-white my-2">Want to Cock</button>
+    <button onClick={()=>handleRecipes(recipe)} className="btn btn-success text-white my-2">Want to Cock</button>
   </div>
 </div>
     </div>

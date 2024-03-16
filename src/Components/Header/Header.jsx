@@ -35,10 +35,10 @@ function Header() {
         </div>
         <div className="navbar-end">
           <div className="flex items-center gap-3">
-            <div className="form-control">
+            <div className="form-control hidden md:block">
                 <input type="text" placeholder="Search" className="input input-bordered h-8 md:h-10 w-32 md:w-full" />
             </div>
-            <button className="btn btn-circle btn-outline text-2xl bg-green-500 text-white">
+            <button className="btn btn-sm md:btn-md btn-circle btn-outline text-2xl bg-green-500 text-white">
                 <MdOutlineAccountCircle />
             </button>
           </div>

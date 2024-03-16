@@ -1,9 +1,13 @@
-import React from 'react'
+import {useState} from"react"
 import Recipies from '../Recipies/Recipies'
 import Sidebar from '../Sidebar/Sidebar'
 
 
 function RecipiesContainer() {
+  const [wantCook,setWantCook] = useState([]);
+  const handleRecipes = (recipe)=>{
+  		setWantCook([...wantCook,recipe])
+  }
   return (
     <div className='max-w-[1440px] mx-auto'>
         <div className="w-[90%] mx-auto">
@@ -12,8 +16,8 @@ function RecipiesContainer() {
                 <p className="">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-5 my-5 gap-5">
-                <Recipies/>
-                <Sidebar/>
+                <Recipies handleRecipes={handleRecipes}/>
+                <Sidebar wantCook={wantCook}/>
             </div>
         </div>
     </div>

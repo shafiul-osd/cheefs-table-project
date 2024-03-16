@@ -4,8 +4,6 @@ import Banner from './Components/Banner/Banner'
 import RecipiesContainer from './Components/RecipiesContainer/RecipiesContainer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Header/>
