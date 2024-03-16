@@ -1,0 +1,56 @@
+[
+  {
+      "recipe_image": "https://img.freepik.com/free-photo/italian-pasta-spaghetti-with-meatballs-parmesan-cheese-black-plate-dark-rustic-wood-background-dinner-slow-food-concept_2829-4639.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Chicken Teriyaki",
+      "short_description": "A delicious Japanese dish featuring tender chicken cooked in a savory teriyaki sauce.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves"],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+  },
+  {
+      "recipe_image": "https://img.freepik.com/premium-photo/crop-couple-cooking-salad-together_23-2148114200.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish made with spaghetti, bacon, eggs, and cheese.",
+      "ingredients": ["400 g spaghetti", "150 g bacon", "3 eggs"],
+      "preparing_time": "25 min",
+      "calories": "450 calories"
+  },
+  {
+      "recipe_image": "https://img.freepik.com/premium-photo/chef-prepares-food-hot-pan-with-steam_192985-2807.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A quick and healthy stir fry loaded with colorful vegetables and tofu, seasoned with a flavorful sauce.",
+      "ingredients": ["300 g tofu", "150 g broccoli florets", "1 bell pepper"],
+      "preparing_time": "20 min",
+      "calories": "250 calories"
+  },
+  {
+      "recipe_image": "https://img.freepik.com/premium-photo/professional-chef-prepares-beef-meat-adds-pepper_192985-3284.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Caesar Salad",
+      "short_description": "A classic salad with crisp romaine lettuce, crunchy croutons, tangy Caesar dressing, and grated Parmesan cheese.",
+      "ingredients": ["1 head romaine lettuce", "50 g croutons", "30 g grated Parmesan cheese"],
+      "preparing_time": "15 min",
+      "calories": "180 calories"
+  },
+  {
+      "recipe_image": "https://img.freepik.com/premium-photo/chef-cuts-fresh-lettuce-leaves-cutting-board-vitamin-salad-diet-menu-breakfast_192985-3251.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Blueberry Pancakes",
+      "short_description": "Fluffy pancakes studded with juicy blueberries, perfect for a delightful breakfast or brunch.",
+      "ingredients": ["200 g all-purpose flour", "2 eggs", "250 ml milk"],
+      "preparing_time": "30 min",
+      "calories": "280 calories"
+  },
+  {
+      "recipe_image": "https://img.freepik.com/premium-photo/chef-cuts-raw-ribs-cutting-board-before-barbecuing_192985-3099.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Chocolate Cake",
+      "short_description": "Decadent chocolate cake layered with rich chocolate frosting, a must-have for chocolate lovers.",
+      "ingredients": ["200 g all-purpose flour", "100 g cocoa powder", "200 g sugar"],
+      "preparing_time": "40 min",
+      "calories": "380 calories"
+  }
+]
