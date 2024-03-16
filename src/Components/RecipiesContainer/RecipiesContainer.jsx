@@ -9,8 +9,10 @@ function RecipiesContainer() {
   		const exist = wantCook.find(cook => cook.recipe_id === recipe.recipe_id);
   		if(!exist){
   			setWantCook([...wantCook,recipe]);
-  			toast("Successfully added !!");
-  		}
+  			toast.success("Successfully added !!");
+  		}else{
+        toast.warn("You have Already added this item in cooklist!!");
+      }
   }
   return (
     <div className='max-w-[1440px] mx-auto'>
