@@ -3,7 +3,7 @@ import React from 'react';
 function Banner() {
   return (
     <div className='max-w-[1440px] mx-auto my-5'>
-      <div className="hero min-h-[70vh] w-[90%] mx-auto rounded-2xl overflow-hidden" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+      <div className="hero min-h-[70vh] w-[90%] mx-auto rounded-2xl overflow-hidden" style={{backgroundImage: 'url(https://img.freepik.com/free-photo/tasty-fresh-appetizing-italian-food-ingredients-dark-background-ready-cook-home-italian-healthy-food-cooking-concept-toning_1220-1820.jpg)'}}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="w-10/12">
