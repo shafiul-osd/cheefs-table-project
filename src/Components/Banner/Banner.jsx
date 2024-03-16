@@ -10,8 +10,8 @@ function Banner() {
             <h1 className="mb-5 text-3xl md:text-5xl font-bold">Discover an exceptional cooking class tailored for you!</h1>
             <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <div className="flex gap-3 justify-center items-center">
-              <button className="btn btn-success rounded-2xl text-white">Success</button>
-              <button className="btn btn-outline btn-accent rounded-2xl text-white">Accent</button>
+              <button className="btn btn-success rounded-2xl text-white">Explore Now</button>
+              <button className="btn btn-outline btn-accent rounded-2xl text-white">Our Feedback</button>
             </div>
           </div>
         </div>

@@ -6,7 +6,10 @@ import Sidebar from '../Sidebar/Sidebar'
 function RecipiesContainer() {
   const [wantCook,setWantCook] = useState([]);
   const handleRecipes = (recipe)=>{
-  		setWantCook([...wantCook,recipe])
+  		const exist = wantCook.find(cook => cook.recipe_id === recipe.recipe_id);
+  		if(!exist){
+  			setWantCook([...wantCook,recipe])
+  		}
   }
   return (
     <div className='max-w-[1440px] mx-auto'>

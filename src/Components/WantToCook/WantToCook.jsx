@@ -1,4 +1,3 @@
-import React from 'react';
 
 const WantToCook = ({wantCook}) => {
 	let count = 0;
