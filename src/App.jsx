@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Header from './Components/Header/Header'
 import Banner from './Components/Banner/Banner'
 import RecipiesContainer from './Components/RecipiesContainer/RecipiesContainer'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
        <Banner/>
        <RecipiesContainer/>
       </main>
+      <ToastContainer />
     </>
   )
 }

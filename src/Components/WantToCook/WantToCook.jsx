@@ -1,7 +1,7 @@
 
-const WantToCook = ({wantCook}) => {
+const WantToCook = ({wantCook,handlePreparing,setWantCook}) => {
 	let count = 0;
-	console.log(wantCook)
+	
   return (
     <div>
       <h1 className="text-2xl text-center">Want to Cook: {wantCook.length}</h1>
@@ -27,7 +27,7 @@ const WantToCook = ({wantCook}) => {
               <td>{cook.recipe_name}</td>
               <td>{cook.preparing_time}</td>
               <td>{cook.calories}</td>
-              <td className="text-left"><button className="btn btn-xs btn-success px-2 text-white">Preparing</button></td>
+              <td className="text-left"><button onClick={()=>handlePreparing(cook)} className="btn btn-xs btn-success px-2 text-white">Preparing</button></td>
             </tr>
           </tbody>
          		})
