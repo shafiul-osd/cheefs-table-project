@@ -1,5 +1,5 @@
 import { MdOutlineAccountCircle } from "react-icons/md";
-
+import { IoIosSearch } from "react-icons/io";
 function Header() {
   return (
     <div className="max-w-[1440px] mx-auto">
@@ -30,8 +30,10 @@ function Header() {
         </div>
         <div className="navbar-end">
           <div className="flex items-center gap-3">
-            <div className="form-control hidden md:block">
-                <input type="text" placeholder="Search" className="input input-bordered h-8 md:h-10 w-32 md:w-full" />
+            <div className="form-control hidden md:block relative">
+                <input type="text" placeholder="Search" className="input input-bordered h-8 md:h-10 w-32 md:w-full pl-10" />
+                <IoIosSearch className="absolute top-0 bottom-0 my-auto ml-3" />
+
             </div>
             <button className="btn btn-sm md:btn-md btn-circle btn-outline text-2xl bg-green-500 text-white">
                 <MdOutlineAccountCircle />
