@@ -21,7 +21,7 @@ const WantToCook = ({wantCook,handlePreparing,setWantCook}) => {
          		wantCook.map(cook => {
          			
          	count ++;
-         	return<tbody className="bg-gray-100 p-2 m-2">
+         	return<tbody key={cook.recipe_id} className="bg-gray-100 p-2 m-2">
             <tr >
               <th>{count}</th>
               <td>{cook.recipe_name}</td>

@@ -14,7 +14,7 @@ function Recipe({recipe,handleRecipes}) {
     <h2 className="text-xl">Ingredients {recipe.ingredients.length}</h2>
     <ul className='ml-8'>
         {
-            recipe.ingredients.map(ingredient => <li className='list-disc'>{ingredient}</li>)
+            recipe.ingredients.map((ingredient,i) => <li key={i} className='list-disc'>{ingredient}</li>)
         }
     </ul>
     <div className="divider"></div>
